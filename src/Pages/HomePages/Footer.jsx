@@ -194,7 +194,7 @@ const Footer = () => {
           Designed &amp; Developed with{" "}
           <span className="text-red-400 text-xs">♥</span> by{" "}
           <a
-            href="https://www.razobyte.com"
+            href="https://cloudwitharyan.tech"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#80CBC4] hover:text-[#b2dfdb] font-medium transition flex items-center gap-1"
