@@ -83,7 +83,7 @@ const Footer = () => {
         {/* 2 — Our Expertise */}
         <div>
           <h3 className="text-white font-semibold mb-3 text-xs sm:text-sm uppercase tracking-wide">
-            Our Expertise
+            Our name
           </h3>
           <ul className="flex flex-col gap-2 text-xs sm:text-sm text-gray-400">
             <Link to="/" className="hover:text-[#80CBC4] transition">Home</Link>
