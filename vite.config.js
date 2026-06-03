@@ -3,11 +3,13 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/',
+  base: '/langma-internaional-main/',
+
   build: {
     outDir: 'dist',
     emptyOutDir: true,
   },
+
   server: {
     host: true,
     port: 5173,
@@ -19,5 +21,6 @@ export default defineConfig({
       },
     },
   },
+
   plugins: [react(), tailwindcss()],
 })
