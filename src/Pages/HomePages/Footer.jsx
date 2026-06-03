@@ -35,17 +35,14 @@ const Footer = () => {
 
           <div className="hidden sm:block border-l border-gray-700 h-14 mx-4" />
 
-            {/* PHONE */}
-            <a href="tel:+919810117094">
-          <div className="flex items-center mb-3 md:mb-0">
-            
-            <span className="flex items-center justify-center border rounded-full h-[50px] w-[50px] mr-3">
-              <FaPhone className="text-[#80CBC4] -rotate-263 transform" />
-            </span>
-            
-            <span className="text-sm">+91-9810117094</span>
-            
-          </div>
+          {/* PHONE */}
+          <a href="tel:+919810117094">
+            <div className="flex items-center mb-3 md:mb-0">
+              <span className="flex items-center justify-center border rounded-full h-[50px] w-[50px] mr-3">
+                <FaPhone className="text-[#80CBC4] -rotate-263 transform" />
+              </span>
+              <span className="text-sm">+91-9810117094</span>
+            </div>
           </a>
 
           <div className="hidden sm:block border-l border-gray-700 h-14 mx-4" />
@@ -83,7 +80,7 @@ const Footer = () => {
         {/* 2 — Our Expertise */}
         <div>
           <h3 className="text-white font-semibold mb-3 text-xs sm:text-sm uppercase tracking-wide">
-            Our name
+            Our Name
           </h3>
           <ul className="flex flex-col gap-2 text-xs sm:text-sm text-gray-400">
             <Link to="/" className="hover:text-[#80CBC4] transition">Home</Link>
@@ -191,8 +188,23 @@ const Footer = () => {
       </div>
 
       {/* ── COPYRIGHT ── */}
-      <div className="border-t border-gray-800 bg-gray-900 bg-opacity-80 text-center py-3 text-xs sm:text-sm text-gray-500">
-        Copyrights © 2026, Langma International
+      <div className="border-t border-gray-800 bg-gray-900 bg-opacity-80 py-3 text-xs sm:text-sm text-gray-500">
+        <div className="text-center mb-1">Copyrights © 2026, Langma International</div>
+        <div className="flex items-center justify-center gap-1.5 text-gray-600 text-xs">
+          Designed &amp; Developed with{" "}
+          <span className="text-red-400 text-xs">♥</span> by{" "}
+          <a
+            href="https://www.razobyte.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#80CBC4] hover:text-[#b2dfdb] font-medium transition flex items-center gap-1"
+          >
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+            Razobyte
+          </a>
+        </div>
       </div>
 
     </footer>
